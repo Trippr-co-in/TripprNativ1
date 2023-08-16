@@ -94,7 +94,7 @@ const Signup = ({navigation}) => {
     };
 
     fetch(
-      'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/auth/customer/register',
+      'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/auth/customer/register',
       {
         method: 'POST',
         headers: {
@@ -109,7 +109,7 @@ const Signup = ({navigation}) => {
         console.log('yrwewetuyerwqrwe', responseData);
         const {email, password} = data
         fetch(
-          'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/auth/customer/login',
+          'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/auth/customer/login',
           {
             method: 'POST',
             headers: {

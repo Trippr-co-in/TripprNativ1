@@ -83,7 +83,7 @@ const Login = ({navigation}) => {
     console.log(data);
 
     fetch(
-      'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/auth/customer/login',
+      'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/auth/customer/login',
       {
         method: 'POST',
         headers: {
@@ -160,18 +160,18 @@ const Login = ({navigation}) => {
         </TouchableOpacity>
       </View>
       <View style={styles.third}>
-        <Image source={require('../assets/or-line.png')} />
-        <TouchableOpacity style={styles.logos} onPress={signIn}>
+        {/* <Image source={require('../assets/or-line.png')} />
+        <TouchableOpacity style={styles.logos} onPress={signIn}> */}
           {/* <Image source={require("../assets/google1-logo.png")} />
           <Image source={require("../assets/facebook-logo.png")} />
           <Image source={require("../assets/twitter-logo.png")} />
           <Image source={require("../assets/apple-logo.png")} /> */}
 
-          <Image
+          {/* <Image
             source={require('../assets/download.png')}
             style={{width: '100%', height: '100%'}}
           />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         <View style={styles.belowpassword}>
           <Text style={styles.footertext}>Don't have an account?</Text>
           <View style={styles.signupbtncontainer}>
