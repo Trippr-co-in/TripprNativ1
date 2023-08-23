@@ -19,7 +19,7 @@ const Homestay = ({navigation}) => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/homeStay/property/all?skip=10&limit=15',
+          'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/homeStay/property/all?skip=10&limit=15',
           {
             method: 'POST',
             headers: {

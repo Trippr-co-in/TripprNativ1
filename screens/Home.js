@@ -218,9 +218,9 @@ const Home = ({navigation, route}) => {
     // totalDistanceInKm:350,
     // tripType:"roundTrip"
     //       }
-
+    
     await fetch(
-      'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/bucket',
+      'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/bucket',
       {
         method: 'POST',
         headers: {

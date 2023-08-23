@@ -16,7 +16,7 @@ const SwiperHomeStays = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          'https://trippr-production-64zvm7t2wa-em.a.run.app/api/v1/homeStay/property/all?skip=10&limit=10',
+          'https://tripprapis-gw5rn.ondigitalocean.app/api/v1/homeStay/property/all?skip=10&limit=10',
           {
             method: 'POST',
             headers: {
