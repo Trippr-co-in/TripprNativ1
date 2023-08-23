@@ -79,8 +79,8 @@ android {
         applicationId "com.trippology.trippr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 7
-        versionName "9.0.1"
+        versionCode 10
+        versionName "10.0.1"
     }
     signingConfigs {
         release {
